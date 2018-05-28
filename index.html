@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title> Portal de Algoritmos </title>
+      <meta name="description" content="c">
+      <meta name="keywords" content="algoritmos, programação, educação">
+      <meta name="robots" content="index, follow">
+      <meta name="author" content="Nubia Nunes, Gabriel Dicieri, Guilherme Tabacow">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+      <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+      <link rel="icon" href="img/icon2.png">
+    </head>
+    <body>
+        <!-- CABEÇALHO --> 
+        <header class="cabecalho container">
+           <a href="index.html"><h1 class="logo"> Portal de Algoritmos </h1></a>
+           <button class="btn-menu bg-gradient"><i class="fa fa-bars fa-lg"></i></button>
+           <nav class="menu">
+               <a class="btn-close"><i class="fa fa-times"></i></a>
+               <ul>
+                   <li><a href="#">Home</a></li>
+                   <li><a href="#">Serviços</a></li>
+                   <li><a href="#">Pacotes</a></li>
+                   <li><a href="#">Quem Somos</a></li>
+                   <li><a href="#">Blog</a></li>
+                   <li><a href="#">Contato</a></li>
+               </ul>
+           </nav>          
+        </header>
+         <!-- BANNER --> 
+        <div class="banner container">
+            <div class="title">
+                <h2> APRENDA VOCÊ MESMO! </h2>
+                <h3> Agoritmos para iniciantes, intermediários e avançados. </h3>
+            </div>
+            <div class="buttons">
+                <button class="btn btn-contato bg-white radius"> Contato <i class="fa fa-comment"></i></button>
+                <button class="btn btn-sobre bg-black radius"> Sobre <i class="fa fa-question-circle"></i></button>
+            </div>
+        </div>
+        <!-- SERVICOS --> 
+        <main class="servicos container">
+            <article class="servico bg-white radius">
+               <a href="#"><img src="img/md2.jpg" alt="Iniciante"></a>
+               <div class="inner">
+                   <a href="#"> Iniciante </a>
+                   <h4> O que são algoritmos? </h4>
+                   <p> Aprenda o que são algoritmos e um pouco sobre como programar. Saiba onde treinar e como estudar para competições.
+                 </p>
+               </div>
+            </article>
+            <article class="servico bg-white radius">
+               <a href="#"><img src="img/md1.jpg" alt="Intermediário"></a>
+               <div class="inner">
+                   <a href="#"> Intermediário </a>
+                   <h4> Vamos aprimorar! </h4>
+                   <p> Problemas para quem já possui noção de algoritmos e lógica. Tente resolver todos aumente seu conhecimento! </p>
+               </div>
+            </article>
+            <article class="servico bg-white radius">
+               <a href="#"><img src="img/md3.jpg" alt="Avançado"></a>
+               <div class="inner">
+                   <a href="#"> Avançado </a>
+                   <h4> Dificultando os problemas. </h4>
+                   <p> Agora que você já está confiante, tente resolver problemas mais complexos e torne-se o mestre dos algoritmos.
+                 </p>
+               </div>
+            </article>
+        </main>
+        <!-- CONTRATE -->
+        <section class="contrate container bg-black">
+           <h2> Entre em Contato! </h2>
+           <h3>  Peça seu orçamento, tire dúvidas e etc </h3>
+           <form>
+              <input class="bg-black radius" type="mensagem" name="mensagem" placeholder="Digite sua mensagem aqui">
+              <button class="bg-white radius"> Enviar </button>
+           </form>
+        </section>
+        <!-- RODAPÉ -->
+        <footer class="rodape container bg-gradient">
+          <div class="social-icons">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-google"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-envelope"></i></a>
+          </div>
+          <p class="copyright">
+            Copyright © Portal de Algoritmos 2018. Todos os direitos reservados.
+        </footer>       
+        
+        <!-- JQUERY --> 
+        <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>
+        $(".btn-menu").click(function(){
+          $(".menu").show();
+        });
+        $(".btn-close").click(function(){
+          $(".menu").hide();
+        });
+        </script>      
+    </body>
+</html>
